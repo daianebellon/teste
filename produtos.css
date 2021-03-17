@@ -1,0 +1,83 @@
+header {
+	background-color: #bbbbbb;
+	padding: 20px 0;
+}
+
+.block {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top:125px;
+	right: 0;
+}
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+nav a {
+	color: #000000;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+.produtos {
+	margin: 0 auto;
+	width: 940px;
+	padding: 50px;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	vertical-align: top;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+.produtos li:hover {
+	border-color: #C78C19;
+}
+.produtos li:hover h2 {
+	font-size: 45px;
+}
+.produtos li:active {
+	border-color: green;
+}
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.descricao {
+	font-size: 18px;
+}
+
+.preco {
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+footer {
+    text-align: center;
+    background: url("images/ft.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
